@@ -111,17 +111,26 @@ nav {
 .deal-section-view {
   display: flex;
   align-items: center;
+  width:100%;  
+  
+}
+.container{
+  display:flex;
+  align-items: center;
+  
+  
 }
 .deal-section-item img {
-   /* width:calc(100vw/6-3px);   */
+    width:calc(100vw/6-30px);   
   /* display:flex; */
   /* flex:wrap; */
 
-   width: 100%; 
+   /* width: 100%;  */
 }
 footer {
   padding: 20px 0;
   margin: 30px 0 40px 0;
+  background-color: #fafbfc;
 }
 .footer-container {
   margin: auto;
@@ -156,13 +165,14 @@ footer {
 .footer-heading-items {
   list-style: none;
   color: #75768b;
-  font-size: 15px;
+  font-size: 12px;
   font-weight:200;
   padding-bottom: 5px;
   line-height:normal;
 }
 .footer-bottom-connect{
   padding:10px;
+  width:320px;
 }
 
 .android-link,.apple-link{
@@ -179,5 +189,21 @@ footer {
 }
 .connect-ions{
   padding:5px;
+}
+.footer-bottom-return{
+  padding:5px;
+}
+strong{
+  font-weight:900;
+  font-size:15px;
+}
+.footer-promises{
+  font-size: 12px;
   
+}
+.footer-owner{
+  text-align: center;
+  color: #282c3f;
+  font-size: 12px;
+
 }
