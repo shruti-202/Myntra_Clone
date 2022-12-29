@@ -121,11 +121,11 @@ nav {
   
 }
 .deal-section-item img {
-    width:calc(100vw/6-30px);   
+    /* width:calc(100vw/6-30px);    */
   /* display:flex; */
   /* flex:wrap; */
 
-   /* width: 100%;  */
+    width: 100%;  
 }
 footer {
   padding: 20px 0;
