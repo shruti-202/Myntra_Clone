@@ -134,6 +134,7 @@ nav {
   align-items: center;
   flex-wrap: wrap; 
   margin:5px 70px;
+  justify-content:center;
 }
 .deal-section-itemtwo img{
   width: calc(100vw/15- 10px);
